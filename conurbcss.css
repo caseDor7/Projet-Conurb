@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: greenyellow;
+    }
+
+a {
+    color: green;
+}    
+
+.banner {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.1rem;
+}
+.under-title-banner {
+    font-size: small;
+    font-weight: bold;
+}
+
+.primary-navigation {
+    padding-top : 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    border-bottom: 0.1rem solid greenyellow;
+    ;
+}
+
+.contenu {
+ padding-left: 8rem;
+ margin-top: 5rem;
+}
+
+#article-index-une {
+    border: 1px solid greenyellow;
+    margin-right: 35rem;
+}
+
+.article-index-wrapper * p {
+    font-size: 0.9rem;
+    padding-left: 3rem;
+    
+    }
